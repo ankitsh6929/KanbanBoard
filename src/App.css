@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,137 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General container styling */
+body {
+  background-color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+/* Typography */
+h6 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Container and Grid */
+.MuiContainer-root {
+  padding: 20px;
+}
+
+.MuiGrid-container {
+  margin-top: 20px;
+}
+
+/* Task Column */
+.MuiGrid-item {
+  min-height: 400px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* TaskCard */
+.MuiCard-root {
+  transition: transform 0.2s ease;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.MuiCardContent-root {
+  padding-bottom: 16px !important;
+}
+
+/* Modal styling */
+.modal-container {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+}
+
+.modal-container input,
+.modal-container .MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+.modal-container .MuiButton-root {
+  margin-right: 10px;
+}
+
+/* Task Column Background Colors */
+.task-column.todo .task-column-paper {
+  background-color: #f0f8ff; /* Light blue for TODO */
+}
+
+.task-column.in-progress .task-column-paper {
+  background-color: #fffacd; /* Light yellow for IN PROGRESS */
+}
+
+.task-column.completed .task-column-paper {
+  background-color: #e6ffe6; /* Light green for COMPLETED */
+}
+
+/* Additional Task Column Styling */
+.task-column-paper {
+  min-height: 300px;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography and general styling */
+h6 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* Optional: Adjust spacing and alignment */
+.MuiGrid-container {
+  margin-bottom: 20px;
+}
+
+.MuiButton-root {
+  margin-left: auto; /* Ensure button aligns to the right */
+}
+
+
+/* Optional: TaskCard priority styling */
+.MuiTypography-body2.priority {
+  color: #d32f2f; /* Red color for emphasis */
+  font-weight: bold;
+}
+
+/* Optional: TaskCard button styling */
+.MuiButton-root {
+  min-width: 100px;
+}
+
+.MuiCardContent-root {
+  padding: 16px;
+}
+
+
